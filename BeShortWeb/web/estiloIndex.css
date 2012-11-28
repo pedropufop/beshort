@@ -1,0 +1,64 @@
+/* 
+    Document   : estilo
+    Created on : 30/08/2012, 12:53:37
+    Author     : Pedro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #ADD8E6;
+}
+
+h1 {
+    color: #000000;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "verdana";
+}
+
+h2 {
+    color: #000000;
+    margin: 0;
+    padding: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "verdana";
+}
+#bs{
+    width: 570px;
+    height: 210px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -275px;
+    position: absolute;
+}
+
+#radio{
+    top: 50%;
+    left: 50%;
+    margin-top: 130px;
+    margin-left: -200px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "verdana";
+}
+
+#buttonOK{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "verdana";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    margin-left: -65px;
+}

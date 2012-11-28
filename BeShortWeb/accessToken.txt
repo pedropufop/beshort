@@ -1,0 +1,12 @@
+user: pedropufop
+getToken: 195827785-pmegqRNoYUrIlAoEJiiMgLi0c1cKxBqF0ACPSxLY
+getTokenSecret: ISZjbMJQnDBDhUuHTDAtdy8OqJW14CUMvWDTc00GZw
+
+user: BeShort2012_1
+getToken: 582982025-xoRfDloGbypvlSpxwTGEXmyee1qw8z2wczax2IoU
+getTokenSecret: nkUAWjEQ5qQBougDcDbUUkfYQgG5HFsYaXS4asxLo
+
+user: BeShort2012_2
+getToken: 713582869-N4CmW37qnznTr9KPqMIxuK8QUJjWbkN0lgcJ0N34
+getTokenSecret: vG4gJLx4rmxkyvFGPTZjdcdz4Ma7LrJPZACdLJE4mSc
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>ServletEnviaTweet</servlet-name>
+        <servlet-class>principal.ServletEnviaTweet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletIndex</servlet-name>
+        <servlet-class>principal.ServletIndex</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletGetTimeline</servlet-name>
+        <servlet-class>principal.ServletGetTimeline</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletEnviaTweet</servlet-name>
+        <url-pattern>/ServletEnviaTweet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletIndex</servlet-name>
+        <url-pattern>/ServletIndex</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletGetTimeline</servlet-name>
+        <url-pattern>/ServletGetTimeline</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
